@@ -1,0 +1,15 @@
+#menu {
+    border: solid 1px rgb(0,0,0);
+    width: 20%;
+    height: 600px;
+}
+
+.inp {
+    display: block;
+    text-decoration: none;
+    border: solid 1px rgb(0,0,0);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
