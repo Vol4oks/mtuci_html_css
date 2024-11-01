@@ -2,37 +2,54 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="menu.css">
-    <title>Document</title>
+    <link rel="icon" href="scan.ico">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/sidebar.css">
+    <link rel="stylesheet" href="CSS/top.css">
+    <title>Сканер</title>
 </head>
 <body>
-    <div id="header">
-        <div id="logo">
-            <img src="scan.svg" alt="Где глаз?">
-            Сканер
-        </div>
-        <div id=" ">
-
-        </div>
-
+    <!-- хедер -->
+    <div class="logo">
+        <div ><img src="src/scan.svg" alt="Где ГЛАЗ?"></div>
+        <div> <H4 text-align="right">Сканер</H4></div>
     </div>
-    <div id="menu">
-        <div class="p_menu">
-            <a href="#" class="inp"> Главное </a>
+
+    <!-- боковое меню -->
+    <!--  как растянуть подчеркивания на всю длинн?  -->
+    <div class="sidebar">
+        <ul>
+        <li><a href="#">Главное</a></li>
+        <li><a href="#">Графики</a></li>
+        <li><a href="#">Устройства</a></li>
+        <li><a href="#">Настройки</a></li>
+        <li><a href="#">Сообщения</a></li>
+        </ul>
+    </div>
+
+    <!-- верхнее меню -->
+    <div class="top">
+        <div> Главное</div>
+        <div class="top_bell">
+            <button>
+                <img src="src/bell.svg" alt="bell">
+            </button> 
         </div>
-        <div class="p_menu">
-            <a href="#" class="inp"> Графики </a>
-        </div>
-        <div class="p_menu">
-            <a href="#" class="inp"> Настройки </a>
-        </div>
-        <div class="p_menu">
-            <a href="#" class="inp"> Сообщения </a>
-        </div>
-        <div class="p_menu">
-            <a href="#" class="inp"> Устройства </a>
+        <div class="top_user"> 
+            <button>
+                <img src="src/user.svg" alt="user">
+            </button>
         </div>
     </div>
+
+    <!-- основное тело -->
+    <div class="main">
+        Здесь будет основная информация о результатах работы сканера
+    </div>
+    <div class="main">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nunc vel purus hendrerit dictum. In sed arcu eu ante venenatis commodo. Duis tincidunt leo vitae risus tempor, et convallis odio posuere. Nam at pretium mauris. Curabitur efficitur finibus risus ac dapibus. Quisque semper aliquam dolor a fringilla. Aenean dapibus feugiat felis id pretium. Vestibulum at libero semper, eleifend mauris scelerisque, ultrices lorem. 
+    </div>
+
+
 </body>
 </html>

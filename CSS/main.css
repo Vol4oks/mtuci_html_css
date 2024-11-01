@@ -1,0 +1,26 @@
+/* не работает....*/
+@font-face {
+    font-family: "TomsHand";
+    src: url("../src/TomsHandwriting.ttf") format('ttf');
+    font-style: italic;
+}
+
+body {
+    font-family: "TomsHand";
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    height: 100%; 
+    object-fit: cover;
+}
+div {
+    padding: 10px 20px;
+    text-align: left; 
+    display: flex;
+}
+
+.main {
+    margin-left: 190px; 
+    text-align: center;
+}
