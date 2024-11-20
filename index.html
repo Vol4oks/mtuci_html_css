@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/sidebar.css">
     <link rel="stylesheet" href="CSS/top.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <title>Сканер</title>
 </head>
-<body>
+<body id="id_top">
     <!-- хедер -->
     <div class="logo">
         <div ><img src="src/scan.svg" alt="Где ГЛАЗ?"></div>
-        <div> <H4 align="center">Сканер локальной сети</H4></div>
+        <div><H4 align="center">Сканер локальной сети</H4></div>
     </div>
 
     <!-- боковое меню -->
@@ -24,12 +27,14 @@
         <li><a href="#">Устройства</a></li>
         <li><a href="#">Настройки</a></li>
         <li><a href="#">Сообщения</a></li>
+        <li class="go_to_top"><a href="#id_top">Вверх</a></li>
         </ul>
+
     </div>
 
     <!-- верхнее меню -->
     <div class="top">
-        <div> Главное</div>
+        <div > Главное</div>
         <div class="top_bell">
             <button>
                 <img src="src/bell.svg" alt="bell">
@@ -41,15 +46,66 @@
             </button>
         </div>
     </div>
-
     <!-- основное тело -->
-    <div class="main">
-        Здесь будет основная информация о результатах работы сканера
+    <div class="main_stat">
+        
+        <div class="stat"> 
+            <a href="#komut">
+                20 Комутаторов
+            </a>
+            <img src="src/router.svg" alt="Где роутер?">
+        </div>
+
+        <div class="stat"> 
+            <a href="#unit">
+                15К Устройств 
+            </a>
+                <img src="src/pc.svg" alt="Где комп?">
+        </div>
+
+        <div class="stat"> 
+            <a href="#act">
+                70% Активных
+            </a>
+            <img src="src/gear.svg" alt="Где шестерня?">
+        </div>
+    </div>
+    <div class="main"> 
+        <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas a arcu sed tincidunt. Nunc quis feugiat nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id molestie dui, et auctor sem. In imperdiet porttitor feugiat. In ultrices finibus gravida. Aenean sed ex sagittis, vehicula mi ut, rhoncus turpis. Nam vitae libero mauris. Pellentesque venenatis volutpat rutrum.
+        <br>Maecenas et aliquet massa. Cras at ullamcorper lorem, non dapibus quam. Etiam viverra, tellus ut varius tristique, sapien libero commodo dui, non ultrices lectus metus nec tellus. Vestibulum congue quis enim et pellentesque. Etiam ut velit et sem venenatis viverra. Proin euismod, orci quis consectetur ultricies, arcu turpis dapibus quam, aliquet eleifend velit arcu quis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque euismod tortor mollis mauris rhoncus congue. Nunc iaculis et sapien nec maximus. Suspendisse finibus nisl tortor, quis congue libero pulvinar a. Vivamus faucibus sapien leo, vitae euismod risus lobortis ut. Praesent facilisis orci vitae felis convallis, euismod aliquam urna facilisis. Morbi auctor lacinia convallis.
+        <br>Nulla sit amet ultricies tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut luctus aliquam molestie. Ut bibendum mauris at dolor elementum, a ullamcorper quam eleifend. Mauris cursus commodo mauris quis placerat. Nam ut quam id urna tincidunt porttitor. Donec at fermentum felis. Maecenas sit amet erat sed dui interdum suscipit sit amet id dui. In accumsan velit eu eleifend accumsan.
+        <br>Curabitur enim lectus, elementum sagittis blandit id, interdum id leo. Proin commodo placerat ex ac venenatis. Morbi vel hendrerit lacus, ac malesuada turpis. Fusce vestibulum semper ante at eleifend. In suscipit dui euismod nibh condimentum condimentum. Etiam varius nibh lacus, non tempor nisi interdum sit amet. Sed vitae libero nulla. Nullam posuere nec ex dapibus sodales. In posuere sem sit amet interdum blandit. Praesent nec iaculis ex. Aliquam in hendrerit quam.
+        <br>Pellentesque egestas ligula sed luctus maximus. Aenean suscipit facilisis risus, sed finibus dolor iaculis id. Integer nibh dui, tempor in pretium a, ultricies eu nulla. Sed suscipit in dolor vel hendrerit. Etiam gravida est ut velit elementum, sed luctus dolor blandit. In feugiat est at luctus cursus. Curabitur eu nulla tortor. Phasellus sit amet risus fermentum, blandit diam et, aliquet lorem. Morbi posuere, mi sed sollicitudin finibus, tellus urna rutrum dolor, euismod posuere lectus lectus iaculis augue. 
+        <br>Quisque eu congue leo. Praesent et massa purus. Fusce lobortis, dui vel ultricies molestie, justo lorem bibendum nunc, in mollis nisl magna nec dui. Etiam sed massa ac augue rhoncus pretium. Vivamus at metus quis lacus lobortis ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed orci dapibus, malesuada lacus ut, vestibulum quam. Praesent eu tempus odio. Duis commodo sem eget nisi fringilla, et consequat nisl dignissim. Aenean quis erat porttitor, convallis dui quis, imperdiet leo. Duis tempus magna nec mollis rutrum. Praesent eu magna posuere, accumsan augue non, tincidunt dolor. Fusce at fringilla ante, id ultrices nisi. Nam at felis ipsum. Pellentesque eget lectus a magna cursus faucibus et ac ligula. Morbi sit amet finibus ante.
+        <br>Nam vitae euismod quam. In vitae velit vel dolor luctus laoreet. Aenean ultrices commodo magna, sed blandit nulla consectetur nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempor, nisi sed luctus accumsan, arcu magna porttitor velit, eu hendrerit nibh diam vel lectus. Duis cursus ultrices dolor a rutrum. Phasellus lobortis tempor velit non porta. Cras a ullamcorper ante, at maximus neque.
+        <br>Nam nec tortor ac augue porta lacinia id a diam. Aenean auctor, felis vitae dictum finibus, lectus lacus cursus nunc, vel blandit arcu augue eu erat. Aliquam sollicitudin congue diam, ac consequat ex consectetur ac. Phasellus ac vestibulum elit. Pellentesque convallis fringilla nibh ut varius. Etiam non massa vitae velit vestibulum lacinia vitae in odio. Sed quis vulputate est.
+        <br>Aliquam ex enim, semper ut fringilla a, finibus a mauris. Donec ultrices euismod dolor id interdum. Etiam vitae faucibus ante. Aliquam vel felis tempus, convallis libero quis, vehicula risus. Cras venenatis vulputate metus, ut molestie tellus posuere id. Etiam gravida nec massa non sollicitudin. Praesent at velit cursus, varius nisl non, consectetur velit. Donec tristique cursus turpis ac vestibulum. Pellentesque congue, orci ac cursus dignissim, nisi velit eleifend neque, eget tempus ex enim vitae magna. Nulla et nunc libero. Vestibulum at blandit erat, sed porta arcu. Nulla at sagittis nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam porttitor gravida neque, volutpat tincidunt magna pharetra ut. Phasellus eu pretium libero, id dapibus enim. Vivamus molestie risus purus, et rutrum tellus laoreet non.
+        <br>Donec ut pharetra nisi. Donec vel ipsum dictum quam porttitor elementum eu vel nisl. Nullam tincidunt efficitur dignissim. Aenean mollis venenatis justo. Integer feugiat, mi eu ultrices aliquam, mauris nunc scelerisque neque, in eleifend tortor mauris et odio. Sed vitae maximus leo. Quisque non ante ut magna consectetur consequat eu non mi. Nulla hendrerit dictum lacus, quis feugiat turpis tempus sit amet. Vivamus sed purus vel ante consectetur vehicula. Etiam luctus, libero id euismod cursus, augue lectus sollicitudin leo, eget placerat massa lorem non diam. Integer augue sapien, auctor at odio sed, rhoncus placerat ex. 
+    </div>
+    <div class="main" id="komut">
+        <h2>Комутаторы</h2>
     </div>
     <div class="main">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nunc vel purus hendrerit dictum. In sed arcu eu ante venenatis commodo. Duis tincidunt leo vitae risus tempor, et convallis odio posuere. Nam at pretium mauris. Curabitur efficitur finibus risus ac dapibus. Quisque semper aliquam dolor a fringilla. Aenean dapibus feugiat felis id pretium. Vestibulum at libero semper, eleifend mauris scelerisque, ultrices lorem. 
+        <img src="src/gr1.png" alt="Где gr1?">
+    </div>
+    <div class="main" id="unit">
+        <h2>Устройства</h2>
+    </div>
+    <div class="main">
+        <img src="src/gr2.png" alt="Где gr2?">
+    </div>
+    <div class="main" id="act">
+        <h2>Активных</h2>
+    </div>
+    <div class="main">
+        <img src="src/gr3.png" alt="Где gr3?">
     </div>
 
-
+    <footer>
+        <div>
+            <div class="map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/moskovskiy_tekhnicheskiy_universitet_svyazi_i_informatiki/1160232684/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Московский технический университет связи и информатики</a><a href="https://yandex.ru/maps/213/moscow/category/university/184106140/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">ВУЗ в Москве</a><iframe src="https://yandex.ru/map-widget/v1/org/moskovskiy_tekhnicheskiy_universitet_svyazi_i_informatiki/1160232684/?ll=37.712075%2C55.755297&z=16.69" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <div class="map_site"><iframe  src="dop.html"></iframe></div>
+        </div>
+        </footer>
 </body>
 </html>

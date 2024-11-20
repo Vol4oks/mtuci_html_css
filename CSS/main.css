@@ -1,27 +1,83 @@
-/* не работает....*/
-@font-face {
-    font-family: "TomsHand";
-    src: url("../src/TomsHandwriting.ttf") format('ttf');
-    font-style: italic;
-}
 
 body {
-    font-family: "TomsHand";
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight:100;
+    font-size:larger;
     /* присваивания параметра фона "телу" сайта;*/
     background-color: rgb(255, 255, 255);
 }
+
+
+.main {
+    margin-left: 190px; 
+    text-align: center;
+}
+
+.main img {
+    width: 100%;
+}
+
+.main_stat {
+    margin-left: 190px; 
+}
+
+.stat {
+    width: 220px; 
+    height: 50px;
+    border: solid 2px rgb(150, 150, 150);
+    border-radius: 10px;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+.stat img {
+    padding-left: 10px;
+}
+
+
+.stat a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.stat a::before {
+    content: "<<";
+}
+
+.stat a::after {
+    content: ">>";
+}
+
+.map {
+    margin-left: 390px;
+    width: 350px; 
+    height: 350px;
+    border: none;
+}
+
+.map iframe {
+    border: none;
+}
+
+.map_site {
+    width: 350px; 
+    height: 350px;
+}
+
+.map_site iframe {
+    border: none;
+}
+
 
 img {
     height: 100%; 
     object-fit: cover;
 }
+
 div {
     padding: 10px 20px;
-    text-align: left; 
+     
     display: flex;
-}
-
-.main {
-    margin-left: 190px; 
-    text-align: center;
 }
